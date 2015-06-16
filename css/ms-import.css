@@ -1,0 +1,15 @@
+#icon-edit { 
+  background:transparent url('../images/headphones-icon.png') no-repeat !important; 
+} 
+#loader { 
+  background: url('../images/ajax-load.gif') no-repeat scroll 0 0 transparent;
+  height: 30px;
+  width: 46px;
+    margin: auto;
+    margin-top: 20px;
+}
+#status {
+  display:none;
+   position: absolute;
+   left:10px;
+}

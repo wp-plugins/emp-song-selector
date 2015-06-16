@@ -1,0 +1,43 @@
+#icon-edit { 
+  background:transparent url('../images/headphones-icon.png') no-repeat !important; 
+}    
+select[name^="m"] { 
+  display: none; 
+}
+#cb-select-all-1 {
+  margin-top: 6px
+}
+#title {
+  /*width:235px;*/
+  width:29.285%;
+}
+#artist_name {
+  /*width:215px;*/
+  width:23.285%;
+}
+#song_length{
+  width:9.285%;
+}
+#song_genre{
+  width:9.285%;
+}
+#song_year{
+  width:7.285%;
+}
+#song_month {
+  width: 8.285%;
+}
+#sample_playlist{
+  width: 13.285%;
+}
+#sample_playlist{
+    white-space: nowrap;
+}
+.column-sample_playlist{
+    text-align: center;
+}
+.view-switch{
+    display: none;
+}
+
+
