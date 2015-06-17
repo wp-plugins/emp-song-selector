@@ -109,7 +109,9 @@ td{
     margin-left:7px;
     padding-left: 10px;
 }
-
+.song_selector_title{
+    font-size: 32px !important;
+}
 
 
 
