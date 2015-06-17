@@ -13,8 +13,7 @@ Allows DJs to upload their song list as a CSV file so that customers can search/
 Allows you to upload your song list as a CSV file so that your customers can view/select/save and print their playlist selection.
 Choose a smaller selection of your song list for the print version.
 Calculates song count and time duration of playlist.
-== Screenshots ==
-1. ../assets/emp-banner.jpg
+
 
 **Credits**
 Concept-Idea by Paul Anthony and bought to you by Event Master Pro 
@@ -26,7 +25,8 @@ English only for now
 
 **Known bugs**
 None at the moment.
-
+== Screenshots ==
+1. /assets/emp-banner.jpg
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
 2. Activate the plugin.
