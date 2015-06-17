@@ -1,4 +1,4 @@
-﻿=== EMP Song Selector (Lite) ===
+﻿=== EMP Song Selector (Lite) for Mobile DJs ===
 Contributors: Event Master Pro
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7XM9FRGM6Z4Q
 Tags: song selector, playlist, music selector, music library, song library, dj tool, dj tools, dj plugin, playlist generator, playlist creator, create a playlist ,
