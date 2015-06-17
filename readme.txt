@@ -25,8 +25,7 @@ English only for now
 
 **Known bugs**
 None at the moment.
-== Screenshots ==
-1. /assets/emp-banner.jpg
+
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
 2. Activate the plugin.
