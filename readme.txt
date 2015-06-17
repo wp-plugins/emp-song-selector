@@ -14,7 +14,7 @@ Allows you to upload your song list as a CSV file so that your customers can vie
 Choose a smaller selection of your song list for the print version.
 Calculates song count and time duration of playlist.
 == Screenshots ==
-1./assets/emp-banner.jpg
+1. ../assets/emp-banner.jpg
 
 **Credits**
 Concept-Idea by Paul Anthony and bought to you by Event Master Pro 
