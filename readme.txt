@@ -1,4 +1,4 @@
-﻿=== EMP Song Selector (Lite) for Mobile DJs ===
+﻿=== EMP Song Selector Tool for Mobile DJs ===
 Contributors: Event Master Pro
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7XM9FRGM6Z4Q
 Tags: song selector, playlist, music selector, music library, song library, dj tool, dj tools, dj plugin, playlist generator, playlist creator, create a playlist ,
@@ -13,9 +13,9 @@ Allows DJs to upload their song list from a CSV file so that customers can searc
 1. Allows you to upload your song list from a CSV file so that your customers view for your music library-song list.
 2. Creates a beautiful looking song list with your logo at the top of every page which you can give to customers.
 3. You can select a smaller selection of your song list for the print version to save paper.
-4. Customers can also log into your site and select and create their own playlist, save, create a PDF or print out. (Full Version Feature)
-5. Calculates song count and time duration of playlist in real time.
-6. Listen to any song in YouTube with one click. (Full Version Feature)
+4. Calculates song count and time duration of playlist in real time.
+5. Customers can also log into your site and select and create their own playlist, save, create a PDF or print out. (Pro Version Feature)
+6. Listen to any song in YouTube with one click. (Pro Version Feature)
 
 To see it live or purchase the full version visit http://www.eventmasterpro.com/wp-plugins/song-selector.
 
@@ -35,9 +35,10 @@ None at the moment.
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
 2. Activate the plugin.
-3. Upload your song list in CSV file format
-4. Insert the short code [song-selector]
-5. Select your 'Print Version' songs for the PDF print/download
+3. Download MP3 Tag Tools http://www.mp3tag.de/en/download.html to make a CSV of your music library
+4. Upload your song list in CSV file format
+5. Insert the short code [song-selector]
+6. Select your 'Print Version' songs for the PDF print/download
 
 == Changelog ==
 
