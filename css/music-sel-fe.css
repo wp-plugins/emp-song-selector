@@ -89,9 +89,10 @@ td{
     border-radius: 0 6px 6px 0;
     height: 30px;
     padding: 0;
-    position: absolute;
-    width: 12%;
+    /*position: absolute;*/
+    width: calc(12% + 5px);
     font-size:10px;
+    float: left;
 }
 #search-term {
     /*
@@ -405,7 +406,6 @@ td.song-link {
 /*@-moz-document url-prefix() {
     .select-single-song{
         margin-top:1px !important;
-
     }
 }*/
 .youtube-link{
@@ -422,9 +422,9 @@ td.song-link {
     float: left;
     width: 49% !important;
     margin-left: -moz-calc(12% + 93px) !important;
-    margin-left: -webkit-calc(12% + 90px) !important;
-    margin-left: -o-calc(12% + 90px) !important;
-    margin-left: calc(12% + 90px) ;
+    margin-left: -webkit-calc(12% + 91px) !important;
+    margin-left: -o-calc(12% + 91px) !important;
+    margin-left: calc(12% + 93px) ;
 
     white-space: nowrap;
     padding: 0px 0px !important;
