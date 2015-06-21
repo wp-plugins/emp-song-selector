@@ -10,22 +10,24 @@ License: GPLv2 or later
 Allows DJs to upload their song list from a CSV file so that customers can search/select songs for their party. Also creates PDF file of song list.
 
 == Description ==
+WELCOME to Event Master Pro's song selector for mobile DJs. We are very excited to bring you this new tool for mobile DJs or bands who want to be able to showcase their music library via their website or be able to offer customers an up to date PDF of their song list. It has never been easier to manage and maintain your song list for customers to see. 
+
+This plugin is absolutely free however there is a Pro Version for $47 which adds the extra abilty for customers to log into your site and save their playlist, and also a very cool feature listen to songs from YouTube with a single click. To see it live or purchase the full version visit (http://bit.ly/1RkNNO6)
+
 1. Allows you to upload your song list from a CSV file so that your customers view for your music library-song list.
-2. Creates a beautiful looking song list with your logo at the top of every page which you can give to customers.
+2. Creates a beautiful looking song list with your logo at the top of every page which you can give to customers. (See Example PDF Here http://bit.ly/1TET7js)
 3. You can select a smaller selection of your song list for the print version to save paper.
 4. Calculates song count and time duration of playlist in real time.
-5. Customers can also log into your site and select and create their own playlist, save, create a PDF or print out. (Pro Version Feature)
+5. Customers can search and select and create their own playlist, create a PDF or print out.
+6. Customers can log into your WP site and save or create multiple playlists to be updated at later time. (Pro Version Feature)
 6. Listen to any song in YouTube with one click. (Pro Version Feature)
 
-To see it live or purchase the full version visit http://www.eventmasterpro.com/wp-plugins/song-selector.
-
-If you like this plugin PLEASE LEAVE FEEDBACK in REVIEWS!
+If you like this plugin PLEASE LEAVE FEEDBACK in REVIEWS! We will give away a PRO Version Serial to the first 10 people who leave a review so BE QUICK! Just leave a review and email us at info@eventmasterpro.com for your serial.
 
 **Credits**
 Concept-Idea by Paul Anthony and bought to you by Event Master Pro 
-| Developer 1 Zoran C
-| Developer 2 Gor Mkhitaryan (email: gormxitaryan001@mail.ru)
-
+| Developer 1 Gor Mkhitaryan (email: gormxitaryan001@mail.ru)
+| Developer 2 Zoran C
 **Translations**
 English only for now
 
