@@ -227,7 +227,9 @@ th.song-link, td.song-link {
     /*padding-left:0.2%;*/
     width: 6%;
 }
-#music_selector_table { font-size:12px; font-family:Verdana;}
+#music_selector_table { font-size:12px; font-family:Verdana;
+border:none !important;
+}
 .music_selector_tr {
     width:100%;
     display:inline-block;

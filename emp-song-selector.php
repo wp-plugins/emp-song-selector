@@ -140,7 +140,7 @@ if (!class_exists('zc_ms')) {
                             $html .= '<tr class="music_selector_tr"><td class="music_selector_td"><center><i><b>' . $search_term . ' </b>was not found while searching by<b> ' . $search_by . '</b></i> in <u>' . $selected_playlist . '</u></center></td></tr>';
                     }
 
-                    $filename = ($playlist_id == 'sample' ? 'sample.pdf' : $current_user->user_login . '-' . $playlist_id . '.pdf');
+                    $filename = ($playlist_id == 'sample' ? 'song-list.pdf' : $current_user->user_login . '-' . $playlist_id . '.pdf');
 
                     if(($playlist_id=='sample' && $search_term == 'empty') ||  $unsanitized_args['playlist_selection']=='selected'){
                       //  print_r($args);
@@ -153,7 +153,7 @@ if (!class_exists('zc_ms')) {
                            $playlist_id ='selected';
 
                        }else{
-                           $file_url = $wp_upload['baseurl'] . '/EMP/sample.pdf';
+                           $file_url = $wp_upload['baseurl'] . '/EMP/song-list.pdf';
                        }
                         if(@fopen($file_url, "r") && $playlist_id=='sample'){
 
@@ -576,7 +576,7 @@ if (!class_exists('zc_ms')) {
             //_log('wrote html, outputting');
 
             if($playlist_id == 'sample'){
-                $filename  ='sample.pdf';
+                $filename  ='song-list.pdf';
             }elseif($playlist_id == 'selected'){
 
 
