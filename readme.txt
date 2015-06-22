@@ -10,7 +10,7 @@ License: GPLv2 or later
 Allows DJs to upload their song list from a CSV file so that customers can search/select songs for their party. Also creates PDF file of song list.
 
 == Description ==
-WELCOME to Event Master Pro's song selector for mobile DJs. We are very excited to bring you this new tool for mobile DJs or bands who want to be able to showcase their music library via their website or be able to offer customers an up to date PDF of their song list. It has never been easier to manage and maintain your song list for customers to see. 
+WELCOME to Event Master Pro's Song Selector for mobile DJs. We are very excited to bring you this new tool for mobile DJs or bands who want to be able to showcase their music library via their website or be able to offer customers an up to date PDF of their song list. It has never been easier to manage and maintain your song list for customers to see. 
 
 This plugin is absolutely free however there is a Pro Version for $47 which adds the extra abilty for customers to log into your site and save their playlist, and also a very cool feature listen to songs from YouTube with a single click. To see it live or purchase the full version visit (http://bit.ly/1RkNNO6)
 
@@ -26,8 +26,9 @@ If you like this plugin PLEASE LEAVE FEEDBACK in REVIEWS! We will give away a PR
 
 **Credits**
 Concept-Idea by Paul Anthony and bought to you by Event Master Pro 
-| Developer 1 Gor Mkhitaryan (email: gormxitaryan001@mail.ru)
-| Developer 2 Zoran C
+| Developer 1 Zoran C
+| Developer 2 Gor Mkhitaryan (email: gormxitaryan001@mail.ru)
+
 **Translations**
 English only for now
 
@@ -37,11 +38,25 @@ None at the moment.
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
 2. Activate the plugin.
-3. Download MP3 Tag Tools http://www.mp3tag.de/en/download.html to make a CSV of your music library
+3. Make a CSV file from the MP3s on your computer (How to: http://bit.ly/1FwaPL3)
 4. Upload your song list in CSV file format
 5. Insert the short code [song-selector]
 6. Select your 'Print Version' songs for the PDF print/download
 
+== Screenshots ==
+
+1. Here's a screen shot of how the EMP Song Selector looks on a website
+/assets/screenshot-1.png
+2. This is how the song list looks when saved as PDF
+/assets/screenshot-2.png
+3. This is where you 'Manage' your song list in WP Admin
+/assets/screenshot-3.png
+4. Screen for adding new songs individually
+/assets/screenshot-4.png
+5. Screen for importing songs in bulk (up to 5000 per import)
+/assets/screenshot-5.png
+6. This is the Settings Screen
+/assets/screenshot-6.png
 == Changelog ==
 
 = 2.1 =
