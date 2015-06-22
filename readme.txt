@@ -39,9 +39,11 @@ None at the moment.
 1. Copy the plugin to /wp-content/plugins/
 2. Activate the plugin.
 3. Make a CSV file from the MP3s on your computer (How to: http://bit.ly/1FwaPL3)
-4. Upload your song list in CSV file format
-5. Insert the short code [song-selector]
-6. Select your 'Print Version' songs for the PDF print/download
+4. Make sure your CSV file columns in correct order before import
+5. Convert song length seconds to MM:SS on CSV before import (How to: http://bit.ly/1GC8Bhr)
+6. Upload your song list in CSV file format
+7. Insert the short code [song-selector]
+8. Select your 'Print Version' songs for the PDF print/download
 
 == Screenshots ==
 
