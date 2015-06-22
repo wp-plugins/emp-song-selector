@@ -25,7 +25,10 @@ if (!class_exists('ZC_MS_Settings')) {
                     <?php settings_fields($zc_ms->options_group);
 
                     ?>
+                    <span><p>Please support this free plugin by leaving your review at wordpress.org <a href="http://bit.ly/1Iu4Ngn">http://bit.ly/1Iu4Ngn</a></p><span>
                     <table class="form-table">
+
+
                         <tr>
                             <th scope="row"><strong>Shortcode</strong></th>
                             <td>

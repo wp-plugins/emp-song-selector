@@ -41,7 +41,7 @@
                 'default' => ''
             ),
             array(
-			    'name' => 'Playlist:',
+			    'name' => 'Print Version:',
                 'desc' => '',
                 'id' => 'sample_playlist',
                 'type' => 'checkbox',

@@ -108,7 +108,7 @@ if ( 0 == $current_user->ID ) {
                 </select>
 
 
-                    <a href="<?php echo $upload_dir . 'sample.pdf'; ?>" class="avail-playlist-pdf icon" id='sample' target="_blank" title="" style="<?php if(@fopen($upload_dir . 'sample.pdf', "r")){echo "display:block; ";}else{"display:none; ";} ?>"> <span class="pdf_text">PRINT</span></a>
+                    <a href="<?php echo $upload_dir . 'song-list.pdf'; ?>" class="avail-playlist-pdf icon" id='sample' target="_blank" title="" style="<?php if(@fopen($upload_dir . 'song-list.pdf', "r")){echo "display:block; ";}else{"display:none; ";} ?>"> <span class="pdf_text">PRINT</span></a>
 
 
 

@@ -293,7 +293,7 @@ function generatePDFLink (username, playlistName) {
 var pdfdir = jQuery('.pdf_url').attr('value');
 
     if (playlistName == 'sample') {
-	url = pdfdir + 'sample.pdf'
+	url = pdfdir + 'song-list.pdf'
 
   } else {
 	var filename = encodeURIComponent(playlistName);
@@ -334,6 +334,8 @@ jQuery(document).ready(function() {
        var playlist_name =jQuery('#playlist-selection').val();
         if(playlist_name=='selected'){
             playlist_name='-selected';
+        }if(playlist_name=='sample'){
+            playlist_name='song-list';
         }
         jQuery(setTimeout(function(){deleteSamplePlaylist(playlist_name)}, 60000));
     });
