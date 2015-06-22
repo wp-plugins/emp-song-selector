@@ -46,17 +46,17 @@ None at the moment.
 == Screenshots ==
 
 1. Here's a screen shot of how the EMP Song Selector looks on a website
-/assets/screenshot-1.png
+
 2. This is how the song list looks when saved as PDF
-/assets/screenshot-2.png
+
 3. This is where you 'Manage' your song list in WP Admin
-/assets/screenshot-3.png
+
 4. Screen for adding new songs individually
-/assets/screenshot-4.png
+
 5. Screen for importing songs in bulk (up to 5000 per import)
-/assets/screenshot-5.png
+
 6. This is the Settings Screen
-/assets/screenshot-6.png
+
 == Changelog ==
 
 = 2.1 =
