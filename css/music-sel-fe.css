@@ -190,6 +190,8 @@ td{
     display:inline-block;
     margin-bottom: 2px;
     background-color: inherit !important;
+	float:left;
+	margin-bottom:2px;
 }
 .song-select, td.song-select-single {
     border:none;
