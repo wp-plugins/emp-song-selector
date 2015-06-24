@@ -6,6 +6,7 @@ Requires at least: 2.0
 Tested up to: 4.2.2
 Stable tag: 2.1.1
 License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allows DJs to upload their song list from a CSV file so that customers can search/select songs for their party. Also creates PDF file of song list.
 
