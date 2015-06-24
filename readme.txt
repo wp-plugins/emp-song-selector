@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: song selector, playlist, music selector, music library, song library, dj tool, dj tools, dj plugin, playlist generator, playlist creator, create a playlist ,
 Requires at least: 2.0
 Tested up to: 4.2.2
-Stable tag: 2.1.1
+Stable tag: trunk
 License: GPLv2 or later
 
 Allows DJs to upload their song list from a CSV file so that customers can search/select songs for their party. Also creates PDF file of song list.
