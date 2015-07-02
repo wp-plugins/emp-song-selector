@@ -190,8 +190,8 @@ td{
     display:inline-block;
     margin-bottom: 2px;
     background-color: inherit !important;
-	float:left;
-	margin-bottom:2px;
+    float: left;
+    margin-bottom: 2px;
 }
 .song-select, td.song-select-single {
     border:none;
@@ -1249,6 +1249,9 @@ th.song-length, td.song-length {
     padding-right: 0;
 
 
+}
+#register input{
+    height: auto !important;
 }
 
 
