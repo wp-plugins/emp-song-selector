@@ -65,7 +65,6 @@ None at the moment.
 = 2.1 =
 Released on 12th June 2015 without any known issues
 = 2.1.2 =
-Released on 12th June 2015 without any known issues
 - Updated Registration Process
 
 == Frequently Asked Questions ==
