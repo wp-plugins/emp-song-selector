@@ -667,6 +667,7 @@ if (!class_exists('zc_ms')) {
             wp_enqueue_style('music_selector_style');
         }
         function fe_ajax_scripts(){
+            $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https' : 'http';
             wp_enqueue_style( 'jquery-ui-smoothness' , 'http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css' );
             wp_enqueue_script('jquery-ui-autocomplete');
             wp_register_script('music_selector_script', ( ZC_MS_URL . 'js/music-sel-fe.js'), false);
@@ -675,7 +676,7 @@ if (!class_exists('zc_ms')) {
             wp_register_script('table_sort_script', ( ZC_MS_URL . 'js/table-sort/table-sort.js'), false);
             wp_enqueue_script('table_sort_script');
             wp_localize_script( 'music_selector_script', 'PlaylistAjax', array(
-                    'ajaxurl' => admin_url( 'admin-ajax.php'),
+                    'ajaxurl' => admin_url( 'admin-ajax.php',$protocol),
                     'postNonce' => wp_create_nonce( 'fe-ajax-post-nonce' ))
 
             );
@@ -962,6 +963,7 @@ if (!class_exists('zc_ms')) {
          * Output the necessary Javascript and CSS to music-selector admin page
          */
         function add_admin_scripts() {
+            $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https' : 'http';
             if (is_admin()) {
                 if (array_key_exists ( 'post_type' , $_REQUEST ) && $_REQUEST['post_type'] == 'songs') {
                     wp_enqueue_script('jquery');
@@ -970,7 +972,7 @@ if (!class_exists('zc_ms')) {
                     wp_enqueue_style( 'song-list-css', ZC_MS_URL . '/css/songs-list.css' );
                     wp_enqueue_script( 'library-js', ZC_MS_URL . '/js/library.js' );
                     wp_localize_script( 'library-js', 'MusicSelectorAjax', array(
-                            'ajaxurl' => admin_url( 'admin-ajax.php' ),
+                            'ajaxurl' => admin_url( 'admin-ajax.php',$protocol ),
                             'postNonce' => wp_create_nonce( 'ms-ajax-post-nonce' ))
                     );
                 } else if (isset($_REQUEST['page']) && $_REQUEST['page'] == 'import-songs') {
@@ -982,7 +984,7 @@ if (!class_exists('zc_ms')) {
                     wp_enqueue_style( 'settings-css', ZC_MS_URL . '/css/settings.css' );
                     wp_enqueue_script( 'ms-settings-js', ZC_MS_URL . '/js/settings.js' );
                     wp_localize_script( 'ms-settings-js', 'MusicSelectorAjax', array(
-                            'ajaxurl' => admin_url( 'admin-ajax.php'),
+                            'ajaxurl' => admin_url( 'admin-ajax.php',$protocol),
                             'postNonce' => wp_create_nonce( 'ms-ajax-post-nonce' ))
                     );
                 }
