@@ -8,6 +8,7 @@ Version: 2.1.3
 Author: Event Master Pro
 Author URI:http://www.eventmasterpro.com/wp-plugins
 License:GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 global $wp;
