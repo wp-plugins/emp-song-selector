@@ -7,7 +7,7 @@ Description: Song Selector (Lite Version)
 Version: 2.1.3
 Author: Event Master Pro
 Author URI:http://www.eventmasterpro.com/wp-plugins
-License:GPLv2
+License:GPLv2 or later
 */
 
 global $wp;
