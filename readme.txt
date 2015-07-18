@@ -67,7 +67,7 @@ Released on 12th June 2015 without any known issues
 = 2.1.2 =
 - Updated Registration Process
 = 2.1.3 =
-- Updated code to work with php 5.5
+ Updated code to work with php 5.5
 
 == Frequently Asked Questions ==
 Contact us via Wordpress.org SUPPORT with questions.
