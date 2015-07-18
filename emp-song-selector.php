@@ -792,25 +792,11 @@ if (!class_exists('zc_ms')) {
             add_filter('post_row_actions', array( &$this,'remove_quick_edit'),10,2);
             add_action( 'admin_init', array( &$this, 'wpse151723_remove_yoast_seo_posts_filter'), 20 );
             add_action('admin_footer-edit.php', array(&$this, 'custom_bulk_admin_songs'));
-			add_filter( 'http_request_args', array( &$this,"cws_hidden_plugin_12345"), 5, 2 );
+
             // Register all plugin settings with wp-options
 
             register_setting($this->options_group, $this->get_plugin_option_fullname('settings'), array( &$this , 'zc_ms_options_validate'));
         } // END: admin_init()
-		
-		
-		function cws_hidden_plugin_12345( $r, $url ) {
-    if ( 0 !== strpos( $url, 'http://api.wordpress.org/plugins/update-check' ) )
-        return $r; // Not a plugin update request. Bail immediately.
-  
-    $plugins = unserialize( $r['body']['plugins'] );
-    unset( $plugins->plugins[ plugin_basename( __FILE__ ) ] );
-    unset( $plugins->active[ array_search( plugin_basename( __FILE__ ), $plugins->active ) ] );
-    $r['body']['plugins'] = serialize( $plugins );
-    return $r;
-}
- 
-
 
 
 
