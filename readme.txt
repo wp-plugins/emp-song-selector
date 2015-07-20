@@ -66,7 +66,7 @@ None at the moment.
 Released on 12th June 2015 without any known issues
 = 2.1.2 =
 - Updated Registration Process
-= 2.1.3 =
+= 2.1.3l =
 - Updated code to work with php 5.5
 
 == Frequently Asked Questions ==
