@@ -2,13 +2,12 @@
 defined( 'ABSPATH' ) OR exit;
 /*
 Plugin Name: EMP Song Selector Module (Lite Version)
-Plugin URI:https://wordpress.org/plugins/emp-song-selector/
+Plugin URI:
 Description: Song Selector (Lite Version)
-Version: 2.1.3
+Version: 2.1.3l
 Author: Event Master Pro
 Author URI:http://www.eventmasterpro.com/wp-plugins
-License:GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License:GPLv2
 */
 
 global $wp;

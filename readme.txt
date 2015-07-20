@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: song selector, playlist, music selector, music library, song library, dj tool, dj tools, dj plugin, playlist generator, playlist creator, create a playlist ,
 Requires at least: 2.0
 Tested up to: 4.2.2
-Stable tag: 2.1.3
+Stable tag: tags
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,7 +67,7 @@ Released on 12th June 2015 without any known issues
 = 2.1.2 =
 - Updated Registration Process
 = 2.1.3 =
- Updated code to work with php 5.5
+- Updated code to work with php 5.5
 
 == Frequently Asked Questions ==
 Contact us via Wordpress.org SUPPORT with questions.
